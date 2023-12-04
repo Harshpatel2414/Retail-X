@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply scroll-smooth bg-dark-300;
+}
+
+.btn {
+    @apply px-5 py-2 rounded-lg text-black text-lg bg-red-400 hover:ring-white w-auto text-center hover:bg-black hover:ring-2 hover:text-gray-200 hover:font-bold;
+}
+
+.mobileMenu {
+    @apply flex gap-10 absolute top-0 left-0 h-screen w-full justify-center items-center flex-col;
+}

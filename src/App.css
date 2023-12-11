@@ -11,5 +11,5 @@ body {
 }
 
 .mobileMenu {
-    @apply flex fixed gap-10 top-0 left-0 h-screen w-full justify-center items-center flex-col;
+    @apply flex fixed z-10 gap-10 top-0 left-0 h-screen w-full justify-center items-center flex-col;
 }
